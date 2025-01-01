@@ -7,19 +7,19 @@ global.video = "www.youtube.com";
 global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
 global.email = "davidpromise2003@gmail.com";
-global.location = "Lagos, Nigeria";
+global.location = "PH, Nigeria";
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://mohsin:mohsin@cluster0.iauaztt.mongodb.net/?retryWrites=true&w=majority";
 global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "mongodb+srv://mohsin:mohsin@cluster0.iauaztt.mongodb.net/?retryWrites=true&w=majority";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
 global.github = process.env.GITHUB || "https://github.com/Mek-d1/X-bot";
-global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VarIiQL5a24AU5ZCVV0G";
-global.website = process.env.GURL || "https://whatsapp.com/channel/0029VarIiQL5a24AU5ZCVV0G";
+global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029Vani1Mn5fM5WnZHzrK0T";
+global.website = process.env.GURL || "https://whatsapp.com/channel/0029Vani1Mn5fM5WnZHzrK0T";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://files.catbox.moe/mx0z4n.jpg";
 global.devs = "2349133354644";
-global.sudo = process.env.SUDO || "2349133354644";
-global.owner = process.env.OWNER_NUMBER || "2349133354644";
+global.sudo = process.env.SUDO || "2349129338499";
+global.owner = process.env.OWNER_NUMBER || "2349129338499";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "true";
 global.wlcm = process.env.WELCOME || "false";
@@ -48,11 +48,11 @@ module.exports = {
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "©X-:bot",
-  author: process.env.PACK_AUTHER || "X-bot",
+  caption: process.env.CAPTION || "©KPO-:bot",
+  author: process.env.PACK_AUTHER || "KPO-bot",
   packname: process.env.PACK_NAME || "",
-  botname: process.env.BOT_NAME || "X-bot",
-  ownername: process.env.OWNER_NAME || "-X-",
+  botname: process.env.BOT_NAME || "KPO-bot",
+  ownername: process.env.OWNER_NAME || "KPO",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
