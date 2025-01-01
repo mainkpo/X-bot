@@ -44,7 +44,7 @@ global.SESSION_ID =
   process.env.SESSION_ID ||
   ""
 module.exports = {
-  MENU: process.env.KPO || "2",
+  MENU: process.env.menu || "2",
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
