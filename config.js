@@ -7,7 +7,7 @@ global.video = "www.youtube.com";
 global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
 global.email = "davidpromise2003@gmail.com";
-global.location =  PH,Nigeria";
+global.location =  PH,Nigeria;
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://mohsin:mohsin@cluster0.iauaztt.mongodb.net/?retryWrites=true&w=majority";
 global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
