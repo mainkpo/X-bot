@@ -7,12 +7,12 @@ global.video = "www.youtube.com";
 global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
 global.email = "davidpromise2003@gmail.com";
-global.location = PH, Nigeria";
+global.location =  PH, Nigeria";
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://mohsin:mohsin@cluster0.iauaztt.mongodb.net/?retryWrites=true&w=majority";
 global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "mongodb+srv://mohsin:mohsin@cluster0.iauaztt.mongodb.net/?retryWrites=true&w=majority";
-global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
+global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/ph";
 global.github = process.env.GITHUB || "https://github.com/Mek-d1/X-bot";
 global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029Vani1Mn5fM5WnZHzrK0T";
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029Vani1Mn5fM5WnZHzrK0T";
@@ -64,7 +64,7 @@ module.exports = {
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE ||.Public"
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE ||.private"
   LANG: (process.env.THEME || "PLATINUM").toUpperCase(),
 };
 global.rank = "updated";
